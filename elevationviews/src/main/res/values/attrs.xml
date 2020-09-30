@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Common attributes.-->
+
+    <attr name="myFont" format="string" />
+    <attr name="myElevation" format="dimension" />
+    <attr name="backgroundColor" format="color" />
+    <attr name="backgroundImage" format="reference" />
+    <attr name="shadowColor" format="color" />
+    <attr name="radius" format="dimension" />
+    <attr name="myGravity" format="enum">
+        <enum name="bottom" value="0"/>
+        <enum name="top" value="1"/>
+        <enum name="center" value="2"/>
+    </attr>
+
+    <!--*****************************************-->
+
+    <declare-styleable name="TextViewElevation">
+        <attr name="myFont" />
+
+        <attr name="myElevation" />
+        <attr name="backgroundColor" />
+        <attr name="backgroundImage" />
+        <attr name="shadowColor" />
+        <attr name="radius" />
+        <attr name="myGravity"/>
+    </declare-styleable>
+
+    <declare-styleable name="RelativeLayoutElevation">
+        <attr name="myElevation" />
+        <attr name="backgroundColor" />
+        <attr name="backgroundImage" />
+        <attr name="shadowColor" />
+        <attr name="radius" />
+        <attr name="myGravity"/>
+    </declare-styleable>
+
+</resources>

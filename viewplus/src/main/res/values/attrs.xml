@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Common attributes.-->
+    <attr name="customFont" format="string" />
+    <attr name="customSize" format="float" />
+    <attr name="customSizePt" format="float" />
+    <attr name="customSizePx" format="float" />
+    <attr name="customGraphicHeight" format="float" />
+    <attr name="customGraphicWidth" format="float" />
+    <attr name="customPadding" format="float" />
+    <attr name="customPaddingLeft" format="float" />
+    <attr name="customPaddingRight" format="float" />
+    <attr name="customPaddingTop" format="float" />
+    <attr name="customPaddingBottom" format="float" />
+
+    <declare-styleable name="ImageAutoScale">
+        <attr name="heightPerWidth" format="float" />
+        <attr name="widthPerHeight" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="TextViewPlus">
+        <attr name="customFont" />
+        <attr name="customSize" />
+        <attr name="customSizePt" />
+        <attr name="customSizePx" />
+        <attr name="customGraphicHeight" />
+        <attr name="customGraphicWidth" />
+        <attr name="customPadding" />
+        <attr name="customPaddingLeft" />
+        <attr name="customPaddingRight" />
+        <attr name="customPaddingTop" />
+        <attr name="customPaddingBottom" />
+    </declare-styleable>
+
+    <declare-styleable name="TextViewAutoResize">
+        <attr name="customFont" />
+    </declare-styleable>
+
+    <declare-styleable name="EditTextPlus">
+        <attr name="customFont" />
+        <attr name="customSize" />
+        <attr name="customSizePt" />
+        <attr name="customSizePx" />
+        <attr name="customGraphicHeight" />
+        <attr name="customGraphicWidth" />
+        <attr name="customPadding" />
+        <attr name="customPaddingLeft" />
+        <attr name="customPaddingRight" />
+        <attr name="customPaddingTop" />
+        <attr name="customPaddingBottom" />
+    </declare-styleable>
+
+</resources>

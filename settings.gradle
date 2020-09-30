@@ -1,0 +1,3 @@
+include ':centergridlayout'
+include ':app', ':utils', ':viewplus', ':elevationviews', ':flowlist', ':dragdroputils'
+rootProject.name='UtilApplication'
