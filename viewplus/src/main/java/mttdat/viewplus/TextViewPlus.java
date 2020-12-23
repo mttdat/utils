@@ -20,20 +20,16 @@ public class TextViewPlus extends AppCompatTextView {
     public TextViewPlus(Context context, AttributeSet attrs) {
         super(context, attrs);
 
-        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.TextViewPlus);
-        graphicHeight = a.getFloat(R.styleable.TextViewPlus_customGraphicHeight, 0f);
-        graphicWidth = a.getFloat(R.styleable.TextViewPlus_customGraphicWidth, 0f);
-
-        a.recycle();
-
-        setCustomFont(context, attrs);
-        setCustomSize(context, attrs);
-        setCustomPadding(context, attrs);
+        init(context, attrs);
     }
 
     public TextViewPlus(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
 
+       init(context, attrs);
+    }
+
+    private void init(Context context, AttributeSet attrs){
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.TextViewPlus);
         graphicHeight = a.getFloat(R.styleable.TextViewPlus_customGraphicHeight, 0f);
         graphicWidth = a.getFloat(R.styleable.TextViewPlus_customGraphicWidth, 0f);

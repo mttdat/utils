@@ -37,6 +37,20 @@
         <attr name="customFont" />
     </declare-styleable>
 
+    <declare-styleable name="TextViewWrapWidth">
+        <attr name="customFont" />
+        <attr name="customSize" />
+        <attr name="customSizePt" />
+        <attr name="customSizePx" />
+        <attr name="customGraphicHeight" />
+        <attr name="customGraphicWidth" />
+        <attr name="customPadding" />
+        <attr name="customPaddingLeft" />
+        <attr name="customPaddingRight" />
+        <attr name="customPaddingTop" />
+        <attr name="customPaddingBottom" />
+    </declare-styleable>
+
     <declare-styleable name="EditTextPlus">
         <attr name="customFont" />
         <attr name="customSize" />

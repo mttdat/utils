@@ -8,7 +8,7 @@ import mttdat.utilapplication.R;
 import mttdat.utils.ViewUtils;
 import mttdat.viewplus.TextViewWrapWidth;
 
-public class TestWrapWidthActivity extends AppCompatActivity {
+public class TextWrapWidthActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
